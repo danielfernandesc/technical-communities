@@ -1,0 +1,18 @@
+<div class="col-md-4" style="padding:0px; background-color: rgba(0,126,175,0.2)">
+  <a routerLink="event-form">
+    <div style="height:100%; width: 100%;">
+          (+) Event
+    </div>
+  </a>
+</div>
+<!--Create Teaser-->
+<div *ngFor="let event of eventsList" class="col-md-4">
+  <h3>{{event.title}}</h3>
+  <h5>{{technologies[event.technology].title}}:</h5>
+  <h5>{{eventsTypes[event.category].title}}</h5>
+  <p>{{event.description | summary}}</p>
+  <p>Author: {{event.authorId}}</p>
+</div>
+
+
+

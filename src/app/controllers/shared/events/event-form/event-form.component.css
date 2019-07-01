@@ -1,0 +1,15 @@
+select {
+  height:30px;
+}
+form {
+  width:100%;
+}
+
+form > select {
+  width:100%;
+}
+textarea
+{
+  width:100%;
+  vertical-align: middle;
+}

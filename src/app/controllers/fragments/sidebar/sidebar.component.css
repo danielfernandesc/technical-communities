@@ -1,0 +1,12 @@
+li.nav-item {
+  padding:5px 0px;
+}
+
+li.nav-item:hover {
+  background-color: #007eaf;
+
+}
+
+li.nav-item:hover a {
+  color: #FFFFFF;
+}

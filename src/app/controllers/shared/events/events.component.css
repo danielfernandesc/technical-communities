@@ -1,0 +1,16 @@
+.container{
+  width: 100%;
+  text-align: center;
+}
+.col1 {
+  float:left;
+  width:45%;
+  text-align: center;
+}
+
+.col2 {
+  float:right;
+  width:45%;
+  text-align: center;
+}
+

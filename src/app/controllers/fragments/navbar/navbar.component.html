@@ -1,0 +1,25 @@
+<nav class="navbar navbar-dark sticky-top bg-corpo-color flex-md-nowrap p-0">
+  <a class="navbar-brand col-sm-3 col-md-2 mr-0" routerLink="/">Altran JS Community</a>
+  <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+  <ul class="navbar-nav px-3">
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" (click)="open(content)">Sign In</a>
+    </li>
+  </ul>
+</nav>
+
+
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title">Sign in...</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+   <button class="btn btn-primary" (click)="loginProvided()">Google Login</button>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>

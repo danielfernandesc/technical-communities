@@ -1,0 +1,13 @@
+<div class="col-md-4" style="padding:0px; background-color: rgba(0,126,175,0.2)">
+  <a routerLink="news-form">
+    <div style="height:100%; width: 100%;">
+      (+) News
+    </div>
+  </a>
+</div>
+
+<div class="col-md-4" style="min-height:350px" *ngFor="let newsItem of news" >
+  <a routerLink="{{newsItem.title | urlTransform}}/{{newsItem.id}}" style="display: block; width:100%; height:100%">
+    <app-news-teaser [newsItem]="newsItem"></app-news-teaser>
+  </a>
+</div>

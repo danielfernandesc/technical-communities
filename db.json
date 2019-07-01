@@ -1,0 +1,142 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Costa não demite Centeno mesmo que seja constituído arguido",
+      "content": "A Procuradoria-Geral da República (PGR) confirmou, este sábado, as buscas, realizadas na sexta-feira, num inquérito que.",
+      "date": "10-10-1992",
+      "authorId": "02",
+      "categoryId": "03",
+      "keywords": "Geral, Centeno , sexta"
+    },
+    {
+      "id": 2,
+      "title": "Aparato policial após discussão e invasão de prédio no Porto",
+      "content": "Duas ocorrências simultâneas provocaram grande aparato policial ao início desta noite de segunda-feira no cruzamento das ruas de Gonçalo Cristóvão e de Camões, no centro do Porto. Uma situação envolveu um casal estrangeiro desavindo e a outra um indivíduo ucraniano que se automutilou. Vários carros patrulha e mais de uma dezena de agentes da PSP acorreram ao local.",
+      "date": "10-11-1993",
+      "authorId": "03",
+      "categoryId": "02",
+      "keywords": "Porto, segunda, PSP"
+    },
+    {
+      "id": 3,
+      "title": "Número dois do FBI abandona cargo após ser criticado por Trump",
+      "content": "O número dois da polícia federal norte-americana (FBI) abandonou, esta segunda-feira, o cargo, depois mais de um ano de críticas do Presidente dos Estados Unidos, Donald Trump.",
+      "date": "10-11-1990",
+      "authorId": "03",
+      "categoryId": "02",
+      "keywords": "norte-americana, keyword, FBI"
+    },
+    {
+      "id": 4,
+      "title": "Gasolineiras apanhadas a vender gasóleo ilegal",
+      "content": "Há cinco gasolineiras a operar em Portugal que importam gasóleo de Espanha e não estão a incorporar a quantidade de biocombustível exigida na lei. Segundo fonte oficial da Secretaria de Estado da Energia, há cinco operadores não cumpridores das incorporações-",
+      "date": "10-10-1991",
+      "authorId": "02",
+      "categoryId": "03",
+      "keywords": "Portugal, Gasolineiras , gasóleo"
+    },
+    {
+      "id": 5,
+      "title": "EUA levantam interdição de entrada de refugiados de 11 países",
+      "content": "Os EUA levantaram esta segunda-feira a interdição de entrada no território norte-americano a refugiados de 11 países, mas, em contrapartida, endureceram as suas condições de admissão, indicou o Departamento de Segurança Interna, em comunicado.",
+      "date": "10-11-1993",
+      "authorId": "03",
+      "categoryId": "02",
+      "keywords": "EUA, americano, refugiados"
+    },
+    {
+      "id": 6,
+      "title": "É assim que o Facebook o espia",
+      "content": "Domingo celebra-se o dia europeu da proteção de dados. O Facebook é uma das plataformas onde mais informação pessoal divulgamos. Idade, gostos e até a nossa localização. A rede social consegue saber quase tudo sobre nós. Mas como?",
+      "date": "10-11-1990",
+      "authorId": "03",
+      "categoryId": "02",
+      "keywords": "Facebook, keyword, espia"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Costa não demite Centeno mesmo que seja constituído arguido",
+      "technology": 0,
+      "category": 2,
+      "link": "",
+      "description": "A Procuradoria-Geral da República (PGR) confirmou, este sábado, as buscas, realizadas na sexta-feira, num inquérito que o pai natal decidiu dar ao coelho da pascoa e como tal ja nam sei",
+      "authorId": "Mikail",
+      "votes": 2
+    },
+    {
+      "id": 2,
+      "title": "Aparato policial após discussão e invasão de prédio no Porto",
+      "technology": 0,
+      "category": 1,
+      "link": "",
+      "description": "Duas ocorrências simultâneas provocaram grande aparato policial ao início desta noite de segunda-feira no cruzamento das ruas de Gonçalo Cristóvão e de Camões, no centro do Porto.",
+      "authorId": "Jhonas",
+      "votes": -1
+    },
+    {
+      "id": 3,
+      "title": "Número dois do FBI abandona cargo após ser criticado por Trump",
+      "technology": 3,
+      "category": 0,
+      "link": "",
+      "description": "O número dois da polícia federal norte-americana (FBI) abandonou, esta segunda-feira, o cargo, depois mais de um ano de críticas do Presidente dos Estados Unidos, Donald Trump. mais ",
+      "authorId": "Rita",
+      "votes": 1337
+    },
+    {
+      "title": "Casandra course",
+      "technology": 2,
+      "category": 1,
+      "description": "This should be an casandra training course",
+      "authorId": "some random Cassandra dev",
+      "id": 4
+    }
+  ],
+  "technologies": [
+    {
+      "id": 0,
+      "title": "Java",
+      "url": "https://pt.wikipedia.org/wiki/Java"
+    },
+    {
+      "id": 1,
+      "title": "Angular",
+      "url": "https://en.wikipedia.org/wiki/Angular_(application_platform)"
+    },
+    {
+      "id": 2,
+      "title": "Cassandra",
+      "url": "https://en.wikipedia.org/wiki/Apache_Cassandra"
+    },
+    {
+      "id": 3,
+      "title": "Js",
+      "url": "https://en.wikipedia.org/wiki/JavaScript"
+    }
+  ],
+  "eventsTypes": [
+    {
+      "id": 0,
+      "title": "Meeting",
+      "description": "In a meeting, two or more people come together to discuss one or more topics, often in a formal setting."
+    },
+    {
+      "id": 1,
+      "title": "Training course",
+      "description": "A course providing training in a particular field or profession"
+    },
+    {
+      "id": 2,
+      "title": "Presentation",
+      "description": "A speech or talk in which a new product, idea, or piece of work is shown and explained to an audience."
+    },
+    {
+      "id": 3,
+      "title": "Trip",
+      "description": "A journey or excursion, especially for pleasure."
+    }
+  ]
+}

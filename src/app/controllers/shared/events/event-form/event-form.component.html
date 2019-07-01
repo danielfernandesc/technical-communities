@@ -1,0 +1,24 @@
+<div class="row">
+  <form [formGroup]="form">
+    <label for="name">Event's Name</label>
+    <input formControlName="eventname" id="name" type="text" class="form-control">
+    <div *ngIf="eventname.touched && eventname.invalid" class="alert.alert-danger">Event name is required</div>
+
+    <label>Technology</label><br>
+    <select name="t" formControlName="tech">
+      <option *ngFor="let t of technologies" [ngValue]="t">{{t.title}}</option>
+    </select>
+
+    <label>Event's Category</label><br>
+    <select name="c" formControlName="category">
+      <option *ngFor="let c of eventsTypes" [ngValue]="c">{{c.title}}</option>
+    </select>
+
+    <div class="form-group">
+      <label for="description">Small description</label>
+      <textarea formControlName="descriptionText" id="description" type="text" class="form-control"></textarea>
+    </div>
+
+    <input class="btn btn-primary" type="submit" (click)="submitEvent(form)"/>
+  </form>
+</div>
