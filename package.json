@@ -29,7 +29,7 @@
     "bootstrap": "^4.0.0",
     "core-js": "^2.5.3",
     "firebase": "^4.9.0",
-    "firebase-tools": "^3.17.4",
+    "firebase-tools": "^11.30.0",
     "g": "^2.0.1",
     "latest-version": "^3.1.0",
     "rxjs": "^5.5.6",
